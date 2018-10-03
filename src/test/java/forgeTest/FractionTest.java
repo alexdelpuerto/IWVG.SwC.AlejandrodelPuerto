@@ -29,4 +29,11 @@ class FractionTest {
     void testgetDenominator() {
         assertEquals(2, this.fraction.getDenominator());
     }
+
+    @Test
+    void testMultiply() {
+        Fraction fraction1 = new Fraction(4,7);
+        assertEquals(20, this.fraction.multiply(fraction1).getNumerator());
+        assertEquals(14, this.fraction.getDenominator());
+    }
 }
