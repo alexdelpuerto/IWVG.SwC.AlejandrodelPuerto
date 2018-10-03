@@ -4,7 +4,8 @@ import forge.User;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 class UserTest {
 
@@ -44,5 +45,10 @@ class UserTest {
     @Test
     void testGetFamilyName() {
         assertEquals("Del puerto", this.user.getFamilyName());
+    }
+
+    @Test
+    void testDistinctiveName() {
+        assertEquals("Sr/Sra. A. Del puerto", this.user.distinctiveName());
     }
 }

@@ -38,4 +38,8 @@ public class User {
         return this.familyName;
     }
 
+    public String distinctiveName() {
+        return "Sr/Sra. " + this.initials() + " " + this.getFamilyName();
+    }
+
 }
