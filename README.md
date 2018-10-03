@@ -12,3 +12,8 @@
 [Bruno Martín](https://github.com/BrunoML1991)
 
 [Xavier Sotomayor](https://github.com/b2lero)
+
+#### Estado del código
+[![Build Status](https://travis-ci.org/alexdelpuerto/IWVG.SwC.AlejandrodelPuerto)
+
+![Quality Gate](https://sonarcloud.io/dashboard?id=es.upm.miw%3AIWVG.SwC.AlejandrodelPuerto)
