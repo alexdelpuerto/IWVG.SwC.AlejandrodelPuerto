@@ -1,11 +1,11 @@
 # Práctica de software colaborativo
-#### Asignatura: *Ingeniería Web: Visión General*
-#### Máster en Ingeniería Web por la U.P.M.
+### Asignatura: *Ingeniería Web: Visión General*
+### Máster en Ingeniería Web por la U.P.M.
 
-####Documentación
+#### Documentación
 [Wiki del proyecto](https://github.com/alexdelpuerto/IWVG.SwC.AlejandrodelPuerto/wiki)
 
-####Programadores
+#### Programadores
 
 [Alexandra Cabrera](https://github.com/AlexandraCabreraLituma)
 
