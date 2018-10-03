@@ -13,7 +13,10 @@
 
 [Xavier Sotomayor](https://github.com/b2lero)
 
-#### Estado del código
-[![Build Status](https://travis-ci.org/alexdelpuerto/IWVG.SwC.AlejandrodelPuerto)
+#### develop status
 
-![Quality Gate](https://sonarcloud.io/dashboard?id=es.upm.miw%3AIWVG.SwC.AlejandrodelPuerto)
+[![Build Status](https://travis-ci.org/alexdelpuerto/IWVG.SwC.AlejandrodelPuerto.svg?branch=develop)](https://travis-ci.org/alexdelpuerto/IWVG.SwC.AlejandrodelPuerto)
+
+#### master status
+[![Build Status](https://travis-ci.org/alexdelpuerto/IWVG.SwC.AlejandrodelPuerto.svg?branch=master)](https://travis-ci.org/alexdelpuerto/IWVG.SwC.AlejandrodelPuerto)
+![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=es.upm.miw%3AIWVG.SwC.AlejandrodelPuerto&metric=alert_status)
