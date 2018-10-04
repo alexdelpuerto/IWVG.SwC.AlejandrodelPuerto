@@ -27,6 +27,11 @@ public class Point {
         return Math.atan((double) this.y / this.x);
     }
 
+    public Point sum(Point z) {
+       Point result =  new Point((this.x + z.x),(this.y + z.y));
+       return result;
+    }
+
     public void translateOrigin(Point origin) {
         this.x -= origin.getX();
         this.y -= origin.getY();
