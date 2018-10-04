@@ -39,5 +39,10 @@ public class Fraction {
         return false;
     }
 
+    public Fraction divide(Fraction fraction) {
+        this.numerator = this.numerator * fraction.getDenominator();
+        this.denominator = this.denominator * fraction.getNumerator();
+        return this;
+    }
 
 }
