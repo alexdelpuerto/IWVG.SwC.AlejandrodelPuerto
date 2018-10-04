@@ -43,4 +43,9 @@ class FractionTest {
         assertEquals(true, fraction2.isPropia());
     }
 
+    @Test
+    void testDivide(){
+        assertEquals(25, fraction.divide(fraction2).getNumerator());
+        assertEquals(4, fraction.getDenominator());
+    }
 }
