@@ -32,5 +32,12 @@ public class Fraction {
         this.denominator = this.denominator * fraction.getDenominator();
         return this;
     }
+    public boolean isPropia() {
+        if (this.numerator<this.denominator){
+            return true;
+        }
+        return false;
+    }
+
 
 }

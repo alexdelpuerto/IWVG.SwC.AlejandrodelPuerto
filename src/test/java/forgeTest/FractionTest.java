@@ -9,10 +9,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class FractionTest {
 
     private Fraction fraction;
+    private Fraction fraction2;
 
     @BeforeEach
     void before() {
         this.fraction = new Fraction(5, 2);
+        this.fraction2 = new Fraction(2, 5);
     }
 
     @Test
@@ -36,4 +38,9 @@ class FractionTest {
         assertEquals(20, this.fraction.multiply(fraction1).getNumerator());
         assertEquals(14, this.fraction.getDenominator());
     }
+    @Test
+    void testisPropia() {
+        assertEquals(true, fraction2.isPropia());
+    }
+
 }
