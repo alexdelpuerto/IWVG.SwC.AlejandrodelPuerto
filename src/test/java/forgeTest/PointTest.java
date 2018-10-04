@@ -60,4 +60,13 @@ class PointTest {
     void testgetY() {
         assertEquals(3, this.point.getY());
     }
+
+    @Test
+    void testSum(){
+        Point point1 = new Point(2);
+        Point point2 = new Point(2).sum(point1);
+
+        assertEquals(4, point2.getX());
+        assertEquals(4, point2.getY());
+    }
 }
