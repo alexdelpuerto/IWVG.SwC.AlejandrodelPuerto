@@ -27,4 +27,22 @@ public class Fraction {
         return denominator;
     }
 
+    public Fraction multiply(Fraction fraction) {
+        this.numerator = this.numerator * fraction.getNumerator();
+        this.denominator = this.denominator * fraction.getDenominator();
+        return this;
+    }
+    public boolean isPropia() {
+        if (this.numerator<this.denominator){
+            return true;
+        }
+        return false;
+    }
+
+    public Fraction divide(Fraction fraction) {
+        this.numerator = this.numerator * fraction.getDenominator();
+        this.denominator = this.denominator * fraction.getNumerator();
+        return this;
+    }
+
 }
